@@ -1,0 +1,11 @@
+2020-01-06 14:40:07,535 INFO [root] [__init__.py(<module>:5)] - TEST日志器能不能正常工作
+2020-01-06 14:40:19,393 INFO [root] [login.py(test_login:28)] - {'success': True, 'data': 'e4275aa2-a7a1-4cfa-9025-5871a11ce8f5', 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:40:19,393 INFO [root] [login.py(test_login:30)] - 登录成功接口返回的数据为{'success': True, 'data': 'e4275aa2-a7a1-4cfa-9025-5871a11ce8f5', 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:40:19,393 INFO [root] [login.py(test_login:35)] - 保存的令牌是：{'Authorization': 'Bearer e4275aa2-a7a1-4cfa-9025-5871a11ce8f5', 'Content-Type': 'application/json'}
+2020-01-06 14:40:19,471 INFO [root] [test_emp.py(test01_add_emp:33)] - 添加员工接口的返回数据是{'success': True, 'data': {'id': '1214074189820284928'}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:40:19,471 INFO [root] [test_emp.py(test01_add_emp:36)] - 员工ID1214074189820284928
+2020-01-06 14:40:19,549 INFO [root] [test_emp.py(test02_query_emp:47)] - 查询员工接口的返回数据为{'success': True, 'data': {'mobile': '1500322337146', 'formOfManagement': None, 'departmentId': '1066239766607040512', 'username': '青5莱斯青11非vcxd1', 'companyId': '1', 'timeOfEntry': '2019-12-04T00:00:00.000+0000', 'inServiceStatus': None, 'password': '826398bcee71394397d9dd87779200a0', 'workingCity': None, 'roleIds': [], 'id': '1214074189820284928', 'correctionTime': '2020-01-15T16:00:00.000+0000', 'workNumber': '10433', 'enableState': 1, 'staffPhoto': None, 'departmentName': '测试', 'createTime': None, 'companyName': '传智播客', 'formOfEmployment': 1}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:40:19,623 INFO [root] [test_emp.py(test03_modify_emp:57)] - 修改员工接口的返回数据为{'success': True, 'data': {'id': '1214074189820284928'}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:40:19,795 INFO [root] [test_emp.py(test03_modify_emp:63)] - 从数据库查询的员工是完好的
+2020-01-06 14:40:19,875 INFO [root] [test_emp.py(test04_delete_emp:77)] - 删除员工接口的返回数据为{'success': True, 'data': None, 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:41:08,449 INFO [root] [__init__.py(<module>:5)] - TEST日志器能不能正常工作

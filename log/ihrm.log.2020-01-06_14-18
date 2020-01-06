@@ -1,0 +1,4 @@
+2020-01-06 14:18:13,048 INFO [root] [login.py(test_login:28)] - {'code': 10000, 'success': True, 'message': '操作成功！', 'data': 'f7237590-e442-47a1-b5ab-325c6c41c2bc'}
+2020-01-06 14:18:13,048 INFO [root] [login.py(test_login:30)] - 登录成功接口返回的数据为{'code': 10000, 'success': True, 'message': '操作成功！', 'data': 'f7237590-e442-47a1-b5ab-325c6c41c2bc'}
+2020-01-06 14:18:13,048 INFO [root] [login.py(test_login:35)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer f7237590-e442-47a1-b5ab-325c6c41c2bc'}
+2020-01-06 14:18:13,142 INFO [root] [test_emp.py(test01_add_emp:33)] - 添加员工接口的返回数据是{'code': 10000, 'success': True, 'message': '操作成功！', 'data': {'id': '1214068626797449216'}}

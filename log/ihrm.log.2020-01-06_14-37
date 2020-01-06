@@ -1,0 +1,10 @@
+2020-01-06 14:37:03,611 INFO [root] [__init__.py(<module>:5)] - TEST日志器能不能正常工作
+2020-01-06 14:37:15,347 INFO [root] [login.py(test_login:28)] - {'message': '操作成功！', 'success': True, 'code': 10000, 'data': 'ea686e1e-ce66-44af-b01d-de9364d4568c'}
+2020-01-06 14:37:15,347 INFO [root] [login.py(test_login:30)] - 登录成功接口返回的数据为{'message': '操作成功！', 'success': True, 'code': 10000, 'data': 'ea686e1e-ce66-44af-b01d-de9364d4568c'}
+2020-01-06 14:37:15,347 INFO [root] [login.py(test_login:35)] - 保存的令牌是：{'Authorization': 'Bearer ea686e1e-ce66-44af-b01d-de9364d4568c', 'Content-Type': 'application/json'}
+2020-01-06 14:37:15,424 INFO [root] [test_emp.py(test01_add_emp:33)] - 添加员工接口的返回数据是{'message': '操作成功！', 'success': True, 'code': 10000, 'data': {'id': '1214073417896382464'}}
+2020-01-06 14:37:15,424 INFO [root] [test_emp.py(test01_add_emp:36)] - 员工ID1214073417896382464
+2020-01-06 14:37:15,502 INFO [root] [test_emp.py(test02_query_emp:47)] - 查询员工接口的返回数据为{'message': '操作成功！', 'success': True, 'code': 10000, 'data': {'username': '青5莱斯青11非vcxd1', 'timeOfEntry': '2019-12-04T00:00:00.000+0000', 'id': '1214073417896382464', 'formOfEmployment': 1, 'staffPhoto': None, 'correctionTime': '2020-01-15T16:00:00.000+0000', 'companyName': '传智播客', 'enableState': 1, 'departmentName': '测试', 'mobile': '1500322337146', 'workingCity': None, 'inServiceStatus': None, 'roleIds': [], 'password': '826398bcee71394397d9dd87779200a0', 'createTime': None, 'workNumber': '10433', 'departmentId': '1066239766607040512', 'companyId': '1', 'formOfManagement': None}}
+2020-01-06 14:37:15,596 INFO [root] [test_emp.py(test03_modify_emp:57)] - 修改员工接口的返回数据为{'message': '操作成功！', 'success': True, 'code': 10000, 'data': {'id': '1214073417896382464'}}
+2020-01-06 14:37:15,768 INFO [root] [test_emp.py(test03_modify_emp:63)] - 从数据库查询的员工是
+2020-01-06 14:37:15,846 INFO [root] [test_emp.py(test04_delete_emp:74)] - 删除员工接口的返回数据为{'message': '操作成功！', 'success': True, 'code': 10000, 'data': None}
